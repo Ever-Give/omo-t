@@ -1,0 +1,264 @@
+﻿The Chip
+
+Author: Throw Away
+
+*000*2017-10-26 01:11
+
+The Chip (Prologue and Chapter 1)
+
+Reynie Gambol, was not, as his name suggests, one to throw caution to the wind. He worked in the most boring department of the blandest store, on the most uneventful street, in the quietest district of Mirror City. But that was the way he liked it. He liked routines, and patterns (although he enjoyed discovering new things). His apartment was on Seven South Saint Solomon Street (He liked the alliteration) and he rarely saw his friends outside of work. So what did he do to gain recognition? Well, the reason this story even exists is because of him. He worked as a (boring) software engineer, designing the programs that ran the city's automated vacuums, that guided the cars, like scarab beetles, glimmering through the coruscant city to their destinations most efficiently, and that flashed the targeted ads at walkers from the billboards.
+
+He disliked the last bit, but they paid him well for it. However, the real reason Reynie Gambol is known is because of what he did on one hot November night. Before the story begins, you must know that Reynie Gambol did one more thing, with glee: He enjoyed cybersecurity, building fortresses of software, then attacking them with injection, buffer overflows, and using patched code to open backdoors. It was with delight that he watched other programmers' contraptions fail because of an ill malloc() call, or a misplaced strcpy(), which he would use to utterly crush the program. Reynie Gambol participated in the weekly cyberhunter competitions that he set up, and invited his few friends to join him. And one final thing, the thing this story is about: Reynie discovering a flaw in the BioChip 2.
+
+Reynie, having exited the Calibur Coding Concepts building, walked down the street, laptop in hand. His laptop was an ancient thing, a Chromebook that had had the CPU upgraded, a GPU soldered on in place of the original onboard graphics, a storage and RAM upgrade, and several screen replacements. It was not as rickety as it looked, however, and bore with pride an 'Old Faithful' sticker on the back. Reynie stopped to get a sub (philly cheesesteaks and meatball subs were his favorite) and sat down on one of the city's many glimmering benches. One of the city's own targeted ads popped up in front of him.
+
+Annoyed by his own folley, he pulled out his laptop and put down his sub. With a quick hop to the console, he scanned the area around him for things called 'ad-server,' or the ones his friend Jacqueline had programmed, 'AdServer.' He found one called 'adserver-rgambol-subshop' and glanced around to see if anyone was looking. They weren't; their eyes were glued to their phones, their comlinks, the screens and holograms. But not to his. With a few keystrokes, he opened an ssh session and shut down the server. The ad flickered into a blue error message. Reynie began eating his sub. He looked down at his drink (water, he disliked the sugary carbonated filth everyone drank) and picked it up.
+
+He checked his messages, and saw one from Jacqueline. Speak of the devil, he thought, I was just remembering her ad code. He checked the message, and read that there were some unusual frequencies operating around her house, and she wondered whether he might want to take a look. Reynie hailed an autocab, which he reflected that he had programmed himself, put in a quarter, and gave it her address. Reynie took a sip of his water and thanked the cab heartily. The cab, as was it's preprogrammed response, politely bid him audieu, and cruised sleekly down the street, splashing rainwater up from the puddles. Reynie pulled the hood over his head, in spite of the blazing sun, and walking briskly, arrived at Jacqueline's front door.
+
+She was rather beautiful, he thought, but that wasn't why he liked her. They were friends and business associates, she had a quick wit to match Reynie's, and an outgoing personality to match his introverted one. They had been through school together, and had been roommates through university. Jacqueline was a slender figure, with small but emphasized curves, and, in stark contrast to Reynie, slight muscles and a warming smile. The orange light behind her illuminated her form, but occluded her front in shadow. She reached out and embraced him, then jokingly whispered "long time, no see!" Reynie laughed good-naturedly and patted her on the back. She spoke again.
+
+"Down to business, okay? I ran a few nightly scans, and there's one that looks strange." She gestured in her computer's three monitors' general direction. Reynie glanced at the screen, noting the ornate gold trim around the bezel. He looked through the lists until he found what she was talking about. BC2-L-CLASS 1080 filtered ports, 9 open, 20 closed. OS Version: Gov-1-img2.iso v.1.1. It was transmitting on radio FM frequencies. Reynie puzzled over it for a minute, then saw his face reflected in the screen and almost jumped, his expression of concentration had been so terse.
+
+"Well, I'll try to send a signal to it, and if it doesn't filter out ping probes, I'll be able to bruteforce the openA protocol."
+
+"What d'you think it does?"
+
+"Dunno. Let's find out."
+
+His laptop whirred for five minutes then dinged, announcing a successful crack.
+
+"Look at that. Dictionary. Substitution. Didn't even use brute force." Reynie smiled at the screen.
+
+"Someone had a sense of humour." He pointed at the third line of text. It read pass: pantyh0s3. Jacqueline laughed a little, then sat down on her chair and crossed her legs. Even though Reynie was introverted, around her, he talked more often than she did. He spoke again.
+
+"I'm running a manual check." pause. He typed man gov1bc -h -vv and read the list. "Ah! It's got a GUI." He was stunned. There, laid out before him was the most intricate diagram of the human body he had ever seen, with every muscle in rendered 3D, with tiny labels around all of them, when you hovered your cursor. There was an axis to rotate the model as well. He didn't know what it did, but now his interest was piqued. And if you were trying to hide something, the last two people you wanted to know about it were Reynie Gambol and Jacqueline Grace. He glanced up from the screen, to Jacqueline, then back down, without saying anything.
+
+He zoomed in on the face and its 500 or so muscles. He clicked on the nose and saw a wide range of options, from sequence, to contract, expand, freeze and stop. He looked up again. The faces, he realized, matched. He stared down at his laptop and thought how he might test whether his theory held true. He selected contract for the left nostril. Jacqueline's nose twitched. But she does that sometimes, he thought. What can I test that she doesn't normally do? Reynie, possessed of some good, realized what all this meant, and did what many others wouldn't have; the decent thing, the noble thing: He told her what he had found. She thought for a moment.
+
+"If it really does work, try clenching both my hands."
+
+The GUI was very intuitive, and Reynie selected the fingers for the two hands, then pressed contract. Jacqueline clenched her fists. She looked down in surprise. Reynie knew what the prospect of a device that could control muscles meant, and when he pondered further, he realized that this could be only one of many; it seemed specialized for Jacqueline. And what of its name? Gov1B.C.? Someone with a dark sense of humour, or the actual government? Then Reynie began planning his legal defense. If the device had unauthorized access to the network, that was a violation in and of itself. The Bill of Invoidable Rights had made provision two years ago for "revenge" style hacking, but Reynie wasn't worried too much about that.
+
+"Hey! Are you even listening? You're standing in front of the bathroom door."
+
+"Uh, oh, no. Sorry. Wait, no, I've got it! If it really works, I know what to do. But I'm not going to tell you, because I don't want to risk the placebo effect."
+
+Jacqueline was wearing tight, light blue jeans and a flowy, lacy translucent white shirt, tinted orange by the light. She crossed her legs more tightly.
+
+"Alright, hurry up. I've been holding it since you got here."
+
+"That'd be," he checked his watch, "seventeen minutes."
+
+"I have a small bladder, okay?"
+
+Reynie felt a small twinge of guilt. He selected the urethra, then looked at the options. 'Relax' seemed like it might do the trick. Jacqueline gasped audibly and shoved her hands between her legs.
+
+"I can't stop it!"
+
+The dark blue stain spread across her jeans, and the urine made a trickling noise as it collided with the floor. This went on for about 10 seconds. Reynie looked up guiltily.
+
+"Sorry. That was it, but it looks like the program does what we think. I'm saving that IP Address. If it really is the government, a police report won't do any good."
+
+"Government? You never said anything about that." Jacqueline seemed to be taking wetting herself in stride and was already back to her talkative persona.
+
+"We should check for more, doncha think, Reynie?"
+
+Reynie was disturbed, but more than a little turned on by the fact that he had robbed another person of their free will.
+
+"I'm sorry."
+
+"No need to be sorry; like you said, it had 'a be done, didn't it?"
+
+"Really, I am sorry; You're one of my closest friends."
+
+"Relax. Look, really, don't be so uptight and apologetic. We need to get things sorted out. And I need to change my pants."
+
+"I think they look kind of cute on you, actually."
+
+Jacqueline blushed.
+
+- - - - - - - - - - - - - -
+
+REPRINT BY HALFCOURT-MUFFLER (SUBSIDIARY OF PUFFGUIN BORKS) WITH PERMISSION OF THOSE INVOLVED IN STORY. CATCH NEXT ISSUE IN VOL. 2 OF AMAZING STORIES HOLOVIDS!
+
+I hate ads. - Reynie
+
+*003*2017-10-26 22:54
+
+That's what I meant, but I was pretty tired when I wrote that (table of contents, one "thread").
+
+*005*2017-10-28 22:38
+
+The Chip (Chapters 2 and 3, with more omorashi)
+
+Minor Correction: The prologue writer mistakenly referred to the Gov1BC as a "BioChip 2," which was developed a year later. This is physical hardware, but in chapter 1, the device had only firmware v1.1. The publisher was reffered to as 'Muffler,' when, in fact, it is "Halfcourt-MuffIN."
+
+Jacqueline sat on her couch, then promptly stood up and closed the curtains. An ad flickered up behind her for adult diapers. Mumbling about targeting ads, she punched the HoloProjector off of the table. It sparked and flickered out. Reynie switched operating systems from Kali to Arch and opened a web browser. He used a Qubes-hardened custom distro with IDS, two firewalls, ClamAV, full-disk 2048-bit AES encyption, and of course, Ad-blockers.
+
+"You know, the city probably recorded us. That's why it showed the ad. Let's go back to my place, we'll be safer there."
+
+Jacqueline paused for a moment.
+
+"Should I change?"
+
+Reynie thought she probably should, but he enjoyed seeing her like this, so he made an effort to prevent it.
+
+"Nobody'll notice. We'll just take an autocab. It's not like there's a driver. I want to reverse all the code from this thing."
+
+The two of them climbed into another autocab, but Reynie had no money. In his past life, before this afternoon, he would never have dreamt of this, but he pulled out his laptop and backdoored the cab. It sped away to his apartment.
+
+"Right. From now on, when we go anywhere, no cars. We don't want to be tracked."
+
+"I hate walking."
+
+"Really? You never told me."
+
+"Well, I enjoy walking with YOU. No' much fun on its own."
+
+Reynie was silent as his mind digested this. No. It said firmly. No. She's just a friend; a colleague. Even so, the less logical portion of his mind couldn't shake the feeling in the back of his head. They had walked together every day for years. Except yesterday, because of the incident, and one time when Samuel had locked Samantha out. The people at Calibur always joked that the two of them had had to get married, since they were both nicknamed some variation of 'Sam.' They couldn't have been more different, if it weren't for their names. Sammy was a short, plump woman, and Samuel was a 6' 8, muscular, broad-shouldered man. His voice, however was soft, and always carried a hint of reverence and kindness. Reynie needed to warn Sam and Sammy.
+
+"I'm going to call Sam and Sammy. And one more thing, before we get off this elevator. No public restrooms; they can analyze our DNA and figure out where we've been from a urine sample. This'll be our last chance before we try finding answers."
+
+"Well," laughed Jacqueline, "I won't need to go anytime soon." She made a sweeping motion at her pants with her hand. The stain was faded now. Reynie stepped out of the elevator and toward his apartment.
+
+"We're home."
+
+Reynie wasn't rich, but most of the money he didn't put toward food was spent adorning his apartment with various and sometimes ill-fitting luxuries, like a grand piano that was actually full of coordinated floppy drives that played the 'Force Theme,' 'The March of the Empire,' and 'Beethoven's 5th Symphony.' His bed was for two people, even though he was the only inhabitant of his apartment. Jacqueline knew all this, of course, so she waited on Reynie to key in his 26-digit alphanumeric passcode to unlock his door. They'd have called him a tin-hat if he lived a while ago, she thought to herself. Reynie's apartment opened. They stepped inside, and Reynie deadbolted and locked the door. A small figure crept out from behind the bed.
+
+"Gina? How'd you get in here?"
+
+Reynie's voice was of deepest concern.
+
+"Through the vents. You know how I like to listen for things sometimes?"
+
+Reynie looked over Gina, and made a mental note to deadbolt the vents. She wore black jogging pants and a T-shirt. Her face was bruised and her long red hair was in clumps. She liked to keep people listening.
+
+"What'd you hear?"
+
+"Yeah, tell's, I wanna know."
+
+"It was the council...They have those weekly meetings, and they started talking about muscle impulses and gibberish, so I ran, but they must have seen, because one of the guards was chasing me with a stun baton." She pointed to her black eye. Jacqueline and Reynie exchanged glances. That was what they had found. Reynie opened his laptop, and obtained a binary copy of the program from the server that used radio frequencies.
+
+"It'll be about a day's journey into Nova. That's where we're going, and, well, I guess you too. I know someone there who can help. We'll have to travel by Pipe, so the cameras don't catch us." Gina and Jacqueline shuddered. Reynie looked sadly at the ground.
+
+###
+
+Jacob Andross-Morthen was, in many ways, the antithesis to Reynie Gambol. There were four things that immediately sprang to mind about him. The first was that he was brash and courageous; he didn't back down from a dare. The second was that he was, quite unlike Reynie, very self-centered and greedy. The third thing is that he was very, very manipulative. The fourth (and final) thing, he spoke in puzzles and rhymes. Of course, it was Jacob that the three of them set off to meet.
+
+###
+
+End chapter 2
+
+###
+
+Chapter 3: So Begins the Journey
+
+Reynie, still shielding his face from the cameras, opened a hatch and clambered into the Pipeworks beneath the city. Before they had colonized other planets, an underground portion of the city had been dug out in case of overpopulation. Fortunately now for Reynie and his oddball party, which consisted of Jacqueline Grace, Gina Lestar, Samuel Morgan, Samantha Jones, Cleo Rodriguez, and James Braun, it had never been completed. NOTE:The principal characters in this story are, of course, Reynie and Jacqueline, so any mention of the others will generally be only to describe them or to help further the plot. As the misfit bunch of programmers and one secretary trundled through the pipeworks, water dripping from above, they were visited by various species of rat, which Samuel happily identified.
+
+It was Gina who led the way, because her red hair was most distinguishable. Following a short ways back were Reynie and Jacqueline, standing astride, then, in single file, Sam, Sammy, James and Cleo. Below the city was an intricate (and mostly abandoned) sea of various railway pieces, (and an actual sea of water) which some of those too poor to afford residence in the city had taken to rebuilding and using for transportation. When Reynie said traveling by Pipe, he referred to renting one of the makeshift trains that traveled like worms through the disarrayed tracks. At last, the group arrived, out of breath (generally, computer addicts and programmers aren't the healthiest) at a cardboard box with a very disgruntled, bearded man behind it.
+
+"'Choo want wiff us?"
+
+Reynie prodded Jacqueline, reasoning that she probably had the best chance of getting a ride.
+
+"We need a ride into Nova."
+
+He raised his two very bushy eyebrows.
+
+"And we're willing to pay."
+
+"Hammuch?"
+
+At this point, Reynie stepped in.
+
+"Name your price."
+
+"Bout fiddy transferables. Can't do nuffink in uzzer places uzzerwise."
+
+He smiled a malignant and toothy grin after his request.
+
+"Alright. We'll pay in advance."
+
+Reynie handed him his neatly folded payment.
+
+"You ha' dat much?"
+
+"All of us, together. Not just me."
+
+"Ferget t'rails, son. We'll travel in style."
+
+So it was that the staff from Calibur (in a rather ungainly manner) moved themselves into a large, rusted canoe. The scavenger they had talked to proved much kinder than they had thought, allowing the computer autopilot to steer, and performed a very heartwarming rendition of 'If it hadn't been for love' on his ukelele, which was made of shoelaces, pipes, and cardboard. As it is with most trips, it wasn't long before someone had to pee.
+
+"Remember, back at your place, when you had me cryptocall the Sams?"
+
+Reynie nodded.
+
+"Well, you were in the bathroom; but I never went."
+
+Gina gesticulated hopelessly and shook her head, sending her hair swaying back and forth. She crossed her legs lightly.
+
+"How much longer do we have?"
+
+"T'Nover? 'Bout a three 'ar trip."
+
+"Doncha know." said Jacqueline in a rather wistful voice.
+
+"Are we making any stops?"
+
+"Sure, fer yeh guys. Paid me most I seent in fordy years. Care t'find out ho' I got dun here inna firs' place?"
+
+Gina had to pee, but she was kind of interested in why he was down here.
+
+"Well, go on."
+
+He had similar habits to her, where he would tell a bit of story, then pause for dramatic effect. Because the whole tale is too long to print here, a simplified version will ensue.
+
+The man had been a poor student, and so had gotten a job building an extension under the city. They payed him well for it, because the job was dangerous. He made several friends, one of whom was named Nino. He continued quickly. The reason the man was down under the city is because he didn't want to go to jail. At further inquiry about it, the old man continued. Gina shifted her hand subtly from her stomach between her legs. Nino was a good friend of his, he said, but the depths claim all equally, he said. Robbie, and Jared, and John, and Nino. All dead. And the superiors had attempted to blame him. So for forty years, he'd been a wanted man, hiding out under the city, not daring travel upwards, because he feared arrest.
+
+"Na, tell me 'bout youse guises. Why's yeh hidin' out for?"
+
+Reynie explained their predicament, minus the device's discovery, only mentioning that they needed to get crucial information somewhere undetected.
+
+"Ah. Na' sammuch unlike meself, eh?"
+
+Gina was visibly distressed, as the man's story, along with Reynie's prattle had taken about forty minutes. She rubbed her legs together, then crossed them more tightly. Though she knew the answer, she asked the two questions anyways.
+
+"Is there a bathroom? Are we there yet?"
+
+The decrepit old man turned away from his glowing blue screen.
+
+"Bafferms? We jes' go in the wadder. An' we still got two an' some change lef' 'fer' we gethair."
+
+Gina blushed a deep scarlet, and rested her hand over her bladder. She winced.
+
+"Can I go when we get there?"
+
+She made the pleading eyes of a schoolgirl who's been denied a restroom visit at Reynie, who, for some reason, everyone thought was in charge.
+
+"Can't use public loos. They can track us via DNA."
+
+Gina pouted and uncrossed her legs, then pushed them (if possible) closer together.
+
+"Where am I gonna go, then?"
+
+Reynie had never heard someone make a noise because the need to urinate was so urgent, but Gina actually whimpered. Reynie thought for a few moments, then decided to deliver the rather sordid truth.
+
+"You have two options. Your pants or the water."
+
+"I'm not going in there," huffed Gina indignantly.
+
+Cleo had been silent almost the entire ride, but she turned to Gina.
+
+"Your pants, then?"
+
+Gina shoved Cleo and resumed her pouting. For ten more minutes, the programmers made awkward chatter, while Gina grew more desperate, at some points even standing up and crossing her legs and then her feet, hands pushed into her crotch. She sat down again, and grabbed her head. Cleo spoke again.
+
+"Just go. It's not healthy to hold it like that."
+
+"Why don't YOU, then?" uttered Gina with a vehemence that could have made the devil cry.
+
+"Used to a lot. I was incontinent; I wear diapers now." Noticing how many people she ha admitted it to, Cleo fell silent, her normally dark tan cheeks a rosy pink. Gina shrieked, no longer paying any heed to others' opinions of her, and began to pee. Her private areas darkened, and the plume of water thundered into the canoe. Her pants became solid, glistening columns of urine, and the patch spread outwards until it nearly reached her hips. The captain said nothing, and went on looking at the screen. Reynie, feeling rather embarrassed himself after witnessing everything, looked at the captain's screen too. It most definitely wasn't a map of Nova.
+
+###
+
