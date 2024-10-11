@@ -8,5 +8,5 @@ Hey, everybody. I’m on the lookout for stories about women who are desperate t
 
 I’ve listed some examples below.
 
-$iframe data-embed-src="https://www.omorashi.org/topic/75259-the-town-without-toilets/?do=embed"
+$/75259-the-town-without-toilets/
 
