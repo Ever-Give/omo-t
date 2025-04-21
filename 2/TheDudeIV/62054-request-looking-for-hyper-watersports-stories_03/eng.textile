@@ -8,7 +8,7 @@ Author: TheDudeIV
 
 I don't know if it is of any use to anyone but I am trying to make art on the same theme
 
-%https://www.omorashi.org/topic/68398-my-artwork/
+$/68398-my-artwork/
 
 }}
 
@@ -20,7 +20,7 @@ Certainly matters to me. Thank you.
 
 *053*2021-07-31 00:26
 
-$iframe data-embed-src="https://www.omorashi.org/topic/62494-might-is-merit-a-rivenwelle-tale/?do=embed"
+$/62494-might-is-merit-a-rivenwelle-tale/
 
 *055*2021-08-22 19:04
 
@@ -28,11 +28,10 @@ $iframe data-embed-src="https://www.omorashi.org/topic/62494-might-is-merit-a-ri
 
 *056*2021-09-15 01:51
 
-$iframe data-embed-src="https://www.omorashi.org/topic/70567-maples-syrup-by-rika/?tab=comments&do=embed&comment=1913328&embedComment=1913328&embedDo=findComment#comment-1913328"
+$/70567-maples-syrup-by-rika/
 
 *057*2021-09-18 02:57
 
-$iframe data-embed-src="https://www.omorashi.org/topic/70633-ammoniatherapy-by-rika-fxa/?do=embed"
+$/70633-ammoniatherapy-by-rika-fxa/
 
 $$$
-
