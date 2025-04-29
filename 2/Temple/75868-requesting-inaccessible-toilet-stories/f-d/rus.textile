@@ -8,5 +8,5 @@
 
 Ниже я привёл несколько примеров.
 
-$iframe $/75259-the-town-without-toilets/
+$/75259-the-town-without-toilets/
 
